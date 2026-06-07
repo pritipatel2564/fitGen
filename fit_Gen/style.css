@@ -10,6 +10,7 @@
     right: 0; */
     z-index: 1000;
     padding: 1rem;
+    margin: 0 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,6 +79,7 @@
     background-color: rgb(100, 156, 15);
     padding: 1rem;
     border-radius: 2rem;
+    text-align: center;
 }
 .hero-content h4{
     font-size: 1.5rem;
@@ -103,7 +105,60 @@
     font-size: 2rem;
     font-weight: bolder;
 }
-
+.fitgen{
+    height: 25rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.fitgen-content span{
+    color: rgb(100, 156, 15);
+}
+.fitgen-content h1{
+    margin-bottom: 1rem;
+}
+.fitgen-cards{
+    padding: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.plan-card{
+    background-color: #0b111b;
+    padding: 1.5rem;
+    display: flex;
+    border: 2px solid #222;
+    border-radius: 1rem;
+}
+.card-no{
+    padding: 0.7rem;
+    height: 1.8rem;
+    background-color: rgb(100, 156, 15);
+    margin-top: -3rem;
+    margin-left: -3rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.card-content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card-content p{
+    font-size: 0.8rem;
+}
+.plan-card:hover{
+    box-shadow:
+        0 0 20px #77959f;
+}
 
 
 
@@ -135,6 +190,18 @@
     }
     .hero-btn{
         width: auto;
+    }
+    .fitgen{
+        height: auto;
+        padding: 2rem;
+        width: auto;
+    }
+    .fitgen-content{
+        margin-top: 1.5rem;
+    }
+    .fitgen-cards{
+        flex-direction: column;
+        padding: 0 2rem;
     }
 
 }
